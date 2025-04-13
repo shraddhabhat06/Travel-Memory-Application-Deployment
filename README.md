@@ -47,6 +47,7 @@ A distributed, full-stack web application for managing travel journals, architec
 - Ensure your MongoDB Atlas cluster has your backend EC2 IP whitelisted.
 - EC2 instances are launched in **ap-south-1 (Mumbai)** region.
 - Use AMIs for easy replication and scaling of environments.
+  
 ---
 
 ## 🧱 Backend Deployment
@@ -115,6 +116,7 @@ node index.js
 ```
 <img src="https://github.com/user-attachments/assets/cdc5a807-1b0c-4b9b-9996-23fcdb756b65" width="600">
 <img src= "https://github.com/user-attachments/assets/6e67bc5f-7c25-44d4-bb57-caeb8ef50a5d" width="600">
+
 ---
 
 ## 🧱 Frontend Deployment
@@ -195,6 +197,7 @@ npm run build
 npm start
 ```
 <img src="https://github.com/user-attachments/assets/030e806b-a664-4664-892b-545d764e4887" width="600">
+
 ---
 
 ## Scaling & Load Distribution
