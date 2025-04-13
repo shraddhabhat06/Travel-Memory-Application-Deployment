@@ -252,7 +252,7 @@ npm run build
 
 # Start the application
 sudo npm start
-
+```
 <img src="https://github.com/user-attachments/assets/e9f09dc9-b45e-4226-a740-58c8f637dc74" width="600">
 
 #Access the application through the custom domain with DNS fully configured:
