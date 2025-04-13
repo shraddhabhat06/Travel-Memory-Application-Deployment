@@ -9,9 +9,6 @@ A distributed, full-stack web application for managing travel journals, architec
 - Scalability: AWS ALB with target groups for load distribution.
 - DNS: Cloudflare integration for custom domain resolution (e.g., api.yourname.site).
 
-## Repository used
-Link: https://github.com/UnpredictablePrashant/TravelMemory
-
 ## 📂 Project Repository
 
 🔗 [GitHub - Travel Memory](https://github.com/UnpredictablePrashant/TravelMemory)
@@ -119,9 +116,13 @@ node index.js
 <img src="https://github.com/user-attachments/assets/cdc5a807-1b0c-4b9b-9996-23fcdb756b65" width="600">
 <img src= "https://github.com/user-attachments/assets/6e67bc5f-7c25-44d4-bb57-caeb8ef50a5d" width="600">
 ---
+
+## 🧱 Frontend Deployment
+
 **EC2 Instance (Frontend)**  
 - Public IP: `65.0.110.135`  
 - Private IP: `172.31.1.233`
+
 <img src= "https://github.com/user-attachments/assets/36efd4ea-9bd0-4579-ae73-4a0278922159" width="600">
 
 ### Deployement Instructions
@@ -160,7 +161,7 @@ npm install
 cd ~/TravelMemory/frontend/src
    
 # Put the following content: 
-export const baseUrl = process.env.REACT_APP_BACKEND_URL #Calling the value from .env file directy using variable "REACT_APP_BACKEND_URL"
+export const baseUrl = process.env.REACT_APP_BACKEND_URL 
 
 # Start the frontend application at port 3000 and validate.   
 npm run build
@@ -228,7 +229,7 @@ Connect your domain and subdomain to the application using Cloudflare:
 - **Subdomain**: api.shraddhabhat.site
 
 Add a CNAME record pointing to the load balancer endpoint:  
-<img src="https://github.com/user-attachments/assets/e9f09dc9-b45e-4226-a740-58c8f637dc74" width="400">
+<img src="https://github.com/user-attachments/assets/e9f09dc9-b45e-4226-a740-58c8f637dc74" width="600">
 
 ### Update Frontend
 Modify the frontend to use the custom domain:
@@ -248,6 +249,31 @@ npm run build
 
 # Start the application
 sudo npm start
+
+<img src="https://github.com/user-attachments/assets/e9f09dc9-b45e-4226-a740-58c8f637dc74" width="600">
+
+#Access the application through the custom domain with DNS fully configured:
+<img src="https://github.com/user-attachments/assets/1fec3d3d-0945-4708-8982-aded059b8717" width="600">
+
+#Use the "Add Experience" feature to input new travel entries:  
+<img src="https://github.com/user-attachments/assets/b5ef034e-acf7-4401-a974-96c3d1951211" width="600">
+
+#All entries are securely saved in MongoDB Atlas:  
+<img src="https://github.com/user-attachments/assets/f5848beb-c723-418e-94a7-1d7eb721e0d4" width="600">
+
+## Deployment Summary
+- Backend: Deployed on EC2 with Nginx handling port 80.  
+- Frontend: Active on EC2 with Nginx on port 80.  
+- Database: Linked to MongoDB Atlas for persistence.
+- Load Balancing: Enabled with multi-AZ coverage.  
+- Domain: Fully integrated via Cloudflare.
+
+
+
+
+
+
+
 
 
 
