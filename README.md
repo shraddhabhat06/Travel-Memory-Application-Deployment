@@ -255,13 +255,13 @@ sudo npm start
 ```
 <img src="https://github.com/user-attachments/assets/e9f09dc9-b45e-4226-a740-58c8f637dc74" width="600">
 
-#Access the application through the custom domain with DNS fully configured:
+# Access the application through the custom domain with DNS fully configured:
 <img src="https://github.com/user-attachments/assets/1fec3d3d-0945-4708-8982-aded059b8717" width="600">
 
-#Use the "Add Experience" feature to input new travel entries:  
+# Use the "Add Experience" feature to input new travel entries:  
 <img src="https://github.com/user-attachments/assets/b5ef034e-acf7-4401-a974-96c3d1951211" width="600">
 
-#All entries are securely saved in MongoDB Atlas:  
+# All entries are securely saved in MongoDB Atlas:  
 <img src="https://github.com/user-attachments/assets/f5848beb-c723-418e-94a7-1d7eb721e0d4" width="600">
 
 ## Deployment Summary
