@@ -264,6 +264,10 @@ sudo npm start
 ### All entries are securely saved in MongoDB Atlas:  
 <img src="https://github.com/user-attachments/assets/f5848beb-c723-418e-94a7-1d7eb721e0d4" width="600">
 
+### Deployment Architecture:
+<img src="https://github.com/user-attachments/assets/3a14f86a-b35d-4194-8257-084c07ea987a" width="500">
+
+
 ## Deployment Summary
 - Backend: Deployed on EC2 with Nginx handling port 80.  
 - Frontend: Active on EC2 with Nginx on port 80.  
